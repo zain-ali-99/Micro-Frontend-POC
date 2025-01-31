@@ -12,8 +12,8 @@ export default function App() {
 
   return (
     <div>
-      {/* <TestCompOne /> */}
-      <TestCompTwo />
+      <TestCompOne />
+      {/* <TestCompTwo /> */}
     </div>
   );
 }
