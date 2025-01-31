@@ -6,7 +6,7 @@ const deps = require("./package.json").dependencies;
 module.exports = {
   entry: "/src/index.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "build"),
   },
   devServer: {
     port: 9001,
