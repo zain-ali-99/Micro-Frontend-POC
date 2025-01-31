@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import TestCompOne from "./components/TestCompOne";
+import TestCompTwo from "./components/TestCompTwo";
 
-function App() {
+/**
+ * Main Component of the application.
+ * Contains all the routing configurations
+ *
+ */
+export default function App() {
+  const [selectedAccount, setSelectedAccount] = useState();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <TestCompOne /> */}
+      <TestCompTwo />
     </div>
   );
 }
-
-export default App;
