@@ -13,16 +13,16 @@ export default function TestCompOne() {
         <p className="text-2xl m-2">
           This is a test component styled for TV app environments.
         </p>
-        <div className="flex w-full justify-around items-center m-4">
+        <div className="flex w-full justify-around items-center m-8 ">
           <img
             src={Image3}
             alt="Placeholder One"
-            className="w-1/2 rounded-lg m-2"
+            className="w-1/2 rounded-lg m-4"
           />
           <img
             src={Image4}
             alt="Placeholder Two"
-            className="w-1/2 rounded-lg m-2"
+            className="w-1/2 rounded-lg m-4"
           />
         </div>
       </div>

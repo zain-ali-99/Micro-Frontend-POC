@@ -13,16 +13,16 @@ export default function TestCompTwo() {
           Another test component with bold styling for a TV app.
         </p>
       </div>
-      <div className="flex flex-1 flex-col items-center gap-4 ">
+      <div className="flex flex-1 flex-col items-center m-8 ">
         <img
           src={Image1}
           alt="Placeholder One"
-          className="w-full rounded-lg px-12"
+          className="w-full rounded-lg px-12 m-4"
         />
         <img
           src={Image2}
           alt="Placeholder Two"
-          className="w-full rounded-lg px-12"
+          className="w-full rounded-lg px-12 m-4"
         />
       </div>
     </div>
